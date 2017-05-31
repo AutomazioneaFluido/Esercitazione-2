@@ -1,0 +1,49 @@
+Introduzione e obiettivi della prova:
+
+Nelle seguenti prove bisogna effettuare delle verifiche per constatare il corretto funzionamento di diverse valvole:
+1)Verificare il funzionamento di una valvola monostabile
+2)Verificare il funzionamento di una valvola bistabile con segnali positivi di pressione
+3)Verificare il funzionamento di una valvola bistabile in mancanza di segnali (comando negativo)
+4)Verificare il funzionamento di una valvola monostabile con comando autoalimentato
+5)Realizzare e verificare il funzionamento del limitatore di impulso
+6)Misurare la forza di azionamento di una valvola di fine corsa
+
+
+Strumenti utilizzati:
+
+Schema 1.1
+
+-Valvola monostabile 3/2 a comando a pulsante
+-Valvola monostabile a comando pneumatico 3/2
+-Lampadina pneumatica
+-Alimentazione
+-Tubi in poliuretano
+
+[inserire schema 1.2]
+
+Schema 1.2
+
+-Valvola monostabile a comando pneumatico 3/2
+-Lampadina pneumatica
+-Limitatore di pressione x2
+-Manometro x2
+-Tubi in poliuretano
+-Alimentazione
+
+[inserire schema 1.3]
+
+Descrizione:
+
+Prova 1.1
+Per verificare il funzionamento di una valvola monostabile a comando pneumatico, costruiamo un semplice circuito utilizzando una valvola con comando a pulsante e una lampadina pneumatica. Se la valvola monostabile funziona correttamente, la lampadina si accenderà al commutarsi della valvola a comando pneumatico e rimarrà accesa fintanto che teniamo premuto il pulsante.
+
+Prova 1.2
+Dobbiamo ora realizzare un circuito nel quale azioniamo la valvola monostabile attraverso la regolazione di due diverse pressioni. In questo l’ingresso del segnale di potenza della valvola a comando pneumatico è collegata all'alimentazione, a un regolatore di pressione e a un manometro, così come l'ingresso del segnale di comando 12. Fissiamo la pressione di alimentazione all'uscita P1 su diversi valori (1,2,3,4,5 bar) e misuriamo per quali valori di P12, la valvola si commuta, e quindi la lampadina si accende.
+
+
+[Inserire Tabella e grafici di diego]
+
+Conclusioni
+
+Schema 1.1: Come previsto premendo il pulsante la valvola monostabile si commuta e rimane commutata fino al rilascio del medesimo.
+Schema 1.2: Dalle varie prove effettuate sulla monostabile con varie pressioni, possiamo affermare che la suddetta si attiva con una pressione di 1.95 Bar perché la forza principale che si contrappone alla commutazione nella monostabile, oltre a le forze minori come forze di attrito meccanico e altre varie, è quella generata dalla molla incorporata nella valvola che è costante.

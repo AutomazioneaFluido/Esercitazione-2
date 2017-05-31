@@ -1,0 +1,102 @@
+Strumenti utilizzati
+
+Schema 2
+-Valvola bistabile a comando pneumatico 5/2
+-Limitatore di pressione x2
+-Manometro x2
+-Valvola monostabile 3/2 a comando a pulsante
+-Tubi in poliuretano
+-Alimentazione
+
+Schema 3
+-Valvola bistabile a comando pneumatico 5/2
+-Valvola monostabile 3/2 a comando a pulsante
+-Lampadina pneumatica x2
+-Strozzatore unidirezionale x2
+-Tubi in poliuretano
+-Alimentazione
+
+Schema 4
+
+-Valvola monostabile a comando pneumatico 3/2
+-Valvola monostabile 3/2 a comando a pulsante x2
+-Manometro
+-Strozzatore unidirezionale
+-(Valvola regolatrice di flusso unidirezionale)
+-Lampadina pneumatica
+-Tubi in poliuretano
+-Alimentazione
+
+Schema 5
+-Valvola monostabile 3/2 a comando pneumatico
+-Valvola monostabile 3/2 a pulsante
+-Lampadina pneumatica x2
+-Limitatore di impulso
+-Manometro x2
+-Tubi in poliuretano
+-Alimentazione
+
+
+Descrizione:
+
+Prova 2
+Il modo di procedere è analogo al precedente, ma in questo caso dobbiamo verificare il funzionamento di una valvola bistabile a comando positivo. Costruiamo un circuito nel quale colleghiamo l'alimentazione con un manometro e un limitatore di pressione all’ingresso del segnale di potenza della valvola bistabile, l'alimentazione con un altro limitatore di pressione e un altro manometro all’ingresso 12 del segnale di comando della valvola bistabile e una valvola monostabile a pulsante all’ingresso 14 del segnale di comando della valvola. La valvola a pulsante collegata all’ingresso del segnale di comando 14 serve a dare l’impulso per commutare la valvola bistabile alla posizione iniziale.
+
+Prova 3
+Ora prendiamo in considerazione il caso in cui una valvola bistabile venga azionata in assenza di segnali di comando in 4 casi:
+1)Entrambe le resistenze chiuse con le valvole 3/2 a riposo o commutate;
+2)Entrambe le resistenze a diverse laminazioni e le valvole 3/2 commutate alternativamente;
+3)Azionamento simultaneo delle valvole 3/2 di comando con le resistenze a diverse laminazioni;
+4)Interruzione e ripristino dell’alimentazione con le resistenze a diverse laminazioni.
+Infine per completare questa parte valutiamo il comportamento del circuito sostituendo le resistenze con valvole regolatrici di flusso unidirezionali.
+
+Prova 4
+In questa parte dobbiamo realizzare un circuito pneumatico nel quale una valvola monostabile viene azionata tramite due valvole monostabili a pulsante e utilizzata come valvola bistabile. Inoltre studiamo il caso in cui azioniamo contemporaneamente le due valvole a pulsante e il caso in cui interrompiamo e ripristiniamo l’alimentazione.
+Inoltre, come nella parte precedente, valutiamo il comportamento del circuito sostituendo la resistenza con una valvola regolatrice di flusso unidirezionale.
+
+Parte 5
+Ora dobbiamo verificare il funzionamento del limitatore di impulso diagrammando i segnali L1 e L2 e la pressione p12 al variare della strozzatura e della pressione di alimentazione Pa.
+
+[inserire grafico di Diego Parte 5]
+
+
+Conclusioni
+
+Schema 2: In modo analogo alla procedura attuata per lo schema 1.2 troviamo la pressione minima di commutazione di una valvola bistabile, che risulta essere 0.34 Bar. In una valvola bistabile non abbiamo una molla che si contrappone alla sua commutazione, quindi le uniche forze che si contrappongo sono tutte le forze di attrito che si generano nel processo di transizione tra una posizione e l’altra. La pressione di portata che va ad alimentare l’attuatore non influisce in nessun modo con il cambio di posizione della valvola perché va ad agire in maniera equa sulle pareti della valvola annullando il suo contributo l’ungo l’asse di transizione delle sue camere.
+Schema 3: punto 1) Avendo entrambe le resistenze chiuse, non abbiamo pressioni di comando per commutare la valvola.
+Schema 3: punto 2) Nella situazione in cui si hanno entrambe le resistenze aperte a diverse laminazioni in modo da avere una differenza tra le due tangibile, si nota che la bistabile si posizionerà sulla configurazione attivata dallo smorzatore che crea meno resistenza. Questo perché si viene a creare, rispetto all’altro smorzatore, una pressione maggiore in tempi minori, e commuta la valvola prima che le pressioni arrivino a regime. Commutando le 3/2 portiamo ogni volta in scarico il condotto dopo il laminatore così facendo prendere il sopravvento alla pressione sul lato opposto della bistabile. In definitiva le valvole 3/2 servono a mandare in scarico le linee a cui sono collegate in modo annullare le pressioni di contrapposizione ed attivare la posizione opposta a quella dove sono collegate.
+Schema 3: punto 3) Attivando simultaneamente le due 3/2 mandiamo in scarico entrambe le linee di comando collegate alla bistabile in modo da non avere nessun segnale su di essa, quindi il posizionamento della valvola, dopo il processo, non varia minimamente perché non si ha nessun segnale sulla valvola
+Schema 3: punto 4) Interrompendo e ripristinando l’alimentazione si ha il fenomeno citato nel punto 2), cioè che la bistabile si posizionerà sulla posizione data dallo strozzatore che crea meno resistenza.
+Schema 3: punto 5) Posizionando gli strozzatori unidirezionali al posto delle resistenze precedenti, su ogni linea possiamo avere due configurazioni: nella prima l'aria compressa non incontra nessuna resistenza, nella seconda viene solamente strozzata e quindi si ritorna al caso visto precedentemente.
+Schema 4: punto 1) Si può ricreare il funzionamento di una bistabile utilizzando una monostabile grazie al concetto dell’autoalimentazione. Con lo schema così configurato attivando il pulsante della valvola 3/2 che va ad alimentare il nostro circuito, commuta la monostabile che va ad attivare sia la lampadina e sia a mantenere la sua configurazione quando il pulsante verrà rilasciato. Così facendo abbiamo bloccato la monostabile nella sua prima posizione e, per portarla alla seconda posizione basta mettere in scarico la parte di conduttura che è in pressione. 
+Schema 4: punto 2) Attivando entrambe le valvole 3/2, cioè quella che alimenta il circuito e quella che la scarica, si attiva la monostabile se la pressione di alimentazione è sufficiente da garantire la pressione di commutazione sulla monostabile, che sarà diversa da quella di alimentazione a causa della ricaduta di pressione dovuta dal punto di scarico situato ad una certa distanza.
+Schema 4: punto 3) Sostituendo il laminatore con una valvola regolatrice di flusso unidirezionale regoliamo la velocità in un'unica direzione.
+Schema 5: La valvola regolatrice di flusso unidirezionale applicata sulla conduttura di comando della valvola monostabile, in base a quanto viene regolata la resistenza, lamina il flusso passante generando un ritardo di commutazione della valvola rispetto al tempo che ci impiegherebbe se non ci fosse alcuna resistenza, apprezzabile grazie alle lampadine pneumatiche poste una prima del laminatore e l’altra dopo la valvola. Questo perché laminando il flusso si genera uno scompenso di pressione rispetto alla condizione precedente che mano a mano andrà a ricrearsi nel tempo, e quando passerà per la pressione sufficiente ad attivare la valvola allora la commuterà. Si nota infine che, proprio a causa di questo fenomeno, all’aumentare della pressione di alimentazione diminuisce il tempo di commutazione proprio perché la pressione necessaria alla commutazione la si raggiunge in un tempo minore essendo la pressione di alimentazione maggiore. 
+
+
+Strumenti utilizzati
+
+
+Parte 6
+
+-Valvola monostabile ad azionamento meccanico bidirezionale (correggete se errato)
+-Leva di alluminio
+-Dinamometro
+-Limitatore di pressione
+-Manometro
+-Tubi in poliuretano
+-Alimentazione
+
+
+Descrizione:
+
+Prova 6
+Con l'ausilio di un dinamometro determiniamo la forza di azionamento di due valvole a comando meccanico. Posizioniamo la valvola sotto una leva incernierata, misurandone la distanza dalla cerniera, e un dinamometro all'estremità della leva, manualmente applichiamo una forza diretta verso il basso, la quale verrà quantificata dal dinamometro e raccogliamo il valore della forza corrispondente all'azionamento della valvola. La forza misurata dal dinamometro è la forza peso Q espressa in kg peso. Fissiamo una pressione di alimentazione pA e ricaviamo la forza Fc di commutazione della valvola, riscontrabile osservando l'attivazione di una lampadina pneumatica collegata all'uscita della valvola. Ripetiamo la prova alcune volte e per diversi valori della pressione di alimentazione: 1,2,3,4,5 bar.
+Infine per studiare l'andamento della Fc, grafichiamo la Fc in funzione di pA.
+
+[diagramma Diego]
+
+
+Conclusioni
+
+La forza da dare al dinamometro per il movimento della leva rimane costante anche all'aumentare della pressione di alimentazione pA, poichè quest'ultima va ad interessarsi solamente dell'attivazione della lampadina pneumatica.
