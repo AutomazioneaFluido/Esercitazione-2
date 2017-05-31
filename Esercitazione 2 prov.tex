@@ -1,0 +1,238 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[italian,english]{babel}
+\usepackage{amssymb,latexsym,amsfonts,amsmath}
+\usepackage{lipsum}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage {pdfpages}
+
+\begin{document}
+
+
+\title{Esercitazione 2}
+\date{April 5 , 2017}
+\maketitle
+
+
+\author{Alessio Susco \hspace*{2cm} Nicola Bomba \hspace*{2cm} Fabrizio Ursini  \\  \hspace*{1,85cm} Alessandra Di Martino \hspace*{1,25cm} Diego Guzman}
+
+\includepdf[pages={1,2,3,4},pagecommand={\thispagestyle{plain}}]{eserc2.pdf} 
+
+\tableofcontents
+
+\clearpage
+
+\section{Introduzione Generale}
+
+Questa esercitazione si sviluppa in sei prove. Nelle seguenti prove bisogna effettuare delle verifiche per constatare il corretto funzionamento di diverse valvole:
+\begin{enumerate}
+\item Verificare il funzionamento di una valvola monostabile;
+\item Verificare il funzionamento di una valvola bistabile con segnali positivi di pressione;
+\item Verificare il funzionamento di una valvola bistabile in mancanza di segnali (comando negativo);
+\item Verificare il funzionamento di una valvola monostabile con comando autoalimentato;
+\item Realizzare e verificare il funzionamento del limitatore di impulso;
+\item Misurare la forza di azionamento di una valvola di fine corsa.
+\end{enumerate}
+
+
+
+\section{Strumenti Utilizzati}
+
+\subsection{Esercizio 1}
+
+\subsubsection{Prova 1.1}
+\begin{itemize}
+\item Valvola monostabile 3/2 a comando a pulsante;
+\item Valvola monostabile a comando pneumatico 3/2;
+\item Lampadina pneumatica;
+\item Alimentazione;
+\item Tubi in poliuretano.
+\end{itemize}
+
+\subsubsection{Prova 1.2}
+\begin{itemize}
+\item Valvola monostabile a comando pneumatico 3/2;
+\item Lampadina pneumatica;
+\item Limitatore di pressione x2;
+\item Manometro x2;
+\item Tubi in poliuretano;
+\item Alimentazione.
+\end{itemize}
+
+
+\subsection{Esercizio 2}
+\begin{itemize}
+\item Valvola bistabile a comando pneumatico 5/2;
+\item Limitatore di pressione x2;
+\item Manometro x2;
+\item Valvola monostabile 3/2 a comando a pulsante;
+\item Tubi in poliuretano;
+\item Alimentazione.
+\end{itemize}
+
+\subsection{Esercizio 3}
+\begin{itemize}
+\item Valvola bistabile a comando pneumatico 5/2;
+\item Valvola monostabile 3/2 a comando a pulsante;
+\item Lampadina pneumatica x2;
+\item Strozzatore unidirezionale x2;
+\item Tubi in poliuretano;
+\item Alimentazione.
+\end{itemize}
+
+\subsection{Esercizio 4}
+\begin{itemize}
+\item Valvola monostabile a comando pneumatico 3/2;
+\item Valvola monostabile 3/2 a comando a pulsante x2;
+\item Manometro;
+\item Strozzatore unidirezionale;
+\item Regolatore di flusso unidirezionale;
+\item Lampadina pneumatica;
+\item Tubi in poliuretano;
+\item Alimentazione.
+\end{itemize}
+
+\subsection{Esercizio 5}
+\begin{itemize}
+\item Valvola monostabile 3/2 a comando pneumatico;
+\item Valvola monostabile 3/2 a pulsante;
+\item Lampadina pneumatica x2;
+\item Limitatore di impulso;
+\item Manometro x2;
+\item Tubi in poliuretano;
+\item Alimentazione.
+\end{itemize}
+
+\subsection{Esercizio 6}
+\begin{itemize}
+\item Valvola monostabile ad azionamento meccanico bidirezionale;
+\item Leva di alluminio;
+\item Dinamometro;
+\item Limitatore di pressione;
+\item Manometro;
+\item Tubi in poliuretano;
+\item Alimentazione.
+\end{itemize}
+
+
+
+\section{Osservazione Preliminare}
+\subsection{Esercizio 1}
+\subsubsection{Prova 1.1}
+Per verificare il funzionamento di una valvola monostabile a comando pneumatico, costruiamo un semplice circuito utilizzando una valvola con comando a pulsante e una lampadina pneumatica. Se la valvola monostabile funziona correttamente, la lampadina si accenderà al commutarsi della valvola a comando pneumatico e rimarrà accesa fintanto che teniamo premuto il pulsante.
+
+\subsubsection{Prova 1.2}
+Dobbiamo ora realizzare un circuito nel quale azioniamo la valvola monostabile attraverso la regolazione di due diverse pressioni. In questo l’ingresso del segnale di potenza della valvola a comando pneumatico è collegata all'alimentazione, a un regolatore di pressione e a un manometro, così come l'ingresso del segnale di comando $_{12}$. Fissiamo la pressione di alimentazione all'uscita $P_1$ su diversi valori (1,2,3,4,5 bar) e misuriamo per quali valori di $P_{12}$, pressione all'ingresso $_{12}$, la valvola si commuta, e quindi la lampadina si accende, riportando i dati raccolti in una tabella e tracciando un grafico dell'andamento di $P_{12}$ in funzione di $P_1$.
+
+
+\subsection{Esercizio 2}
+Il modo di procedere è analogo al precedente, ma in questo caso dobbiamo verificare il funzionamento di una valvola bistabile a comando positivo. Costruiamo un circuito nel quale colleghiamo l'alimentazione con un manometro e un limitatore di pressione all’ingresso del segnale di potenza della valvola bistabile, l'alimentazione con un altro limitatore di pressione e un altro manometro all’ingresso $_{12}$ del segnale di comando della valvola bistabile e una valvola monostabile a pulsante all’ingresso $_{14}$ del segnale di comando della valvola bistabile. La valvola a pulsante collegata all’ingresso del segnale di comando $_{14}$ serve a dare l’impulso per commutare la valvola bistabile alla posizione iniziale.
+
+\subsection{Esercizio 3}
+Ora prendiamo in considerazione il caso in cui una valvola bistabile viene azionata in assenza di segnali di comando in 4 casi:
+\begin{enumerate}
+\item Entrambe le resistenze chiuse con le valvole 3/2 a riposo o commutate;
+\item Entrambe le resistenze a diverse laminazioni e le valvole 3/2 commutate alternativamente;
+
+\item Azionamento simultaneo delle valvole 3/2 di comando con le resistenze a diverse laminazioni;
+
+\item Interruzione e ripristino dell’alimentazione con le resistenze a diverse laminazioni.
+Infine per completare questa parte valutiamo il comportamento del circuito sostituendo le resistenze con valvole regolatrici di flusso unidirezionali.
+\end{enumerate}
+
+\subsection{Esercizio 4}
+In questa parte dobbiamo realizzare un circuito pneumatico nel quale una valvola monostabile viene azionata tramite due valvole monostabili a pulsante e utilizzata come valvola bistabile. Inoltre studiamo il caso in cui azioniamo contemporaneamente le due valvole a pulsante e il caso in cui interrompiamo e ripristiniamo l’alimentazione.
+Inoltre, come nella parte precedente, valutiamo il comportamento del circuito sostituendo la resistenza con un regolatore di flusso unidirezionale.
+
+\subsection{Esercizio 5}
+Ora dobbiamo verificare il funzionamento del limitatore di impulso diagrammando i segnali $L_1$ e $L_2$ e la pressione $P_{12}$ al variare della strozzatura e della pressione di alimentazione $P_a$. Confrontiamo i valori di $P_{12}$ con quelli della prova precedente.
+
+\subsection{Esercizio 6}
+Con l'ausilio di un dinamometro determiniamo la forza di azionamento di due \\
+valvole ad azionamento meccanico.\\
+ Posizioniamo la valvola sotto una leva incernierata, misurandone la distanza dalla cerniera, e un dinamometro all'estremità della leva, e manualmente applichiamo una forza diretta verso il basso, la quale verrà quantificata dal dinamometro e raccogliamo il valore della forza corrispondente all'azionamento della valvola. La forza misurata dal dinamometro è la forza peso $Q$ espressa in kg peso. Fissiamo una pressione di alimentazione $P_a$ e ricaviamo la forza $F_c$ di commutazione della valvola, riscontrabile osservando l'attivazione di una lampadina pneumatica collegata all'uscita della valvola. Ripetiamo la prova alcune volte e per diversi valori della pressione di alimentazione: 1,2,3,4,5 bar.
+Infine per studiare l'andamento della $F_c$, grafichiamo la $F_c$ in funzione di $P_a$.
+
+\section{Schema Circuito}
+
+\subsection{Schema 1.1}
+\begin{center}
+\includegraphics[scale=1]{S1-1.png}
+\end{center}
+
+\subsection{Schema 1.2}
+\begin{center}
+\includegraphics[scale=0.6]{S1-2.png}
+\end{center}
+
+\subsection{Schema 2}
+\begin{center}
+\includegraphics[scale=0.6]{S2.png}
+\end{center}
+
+\subsection{Schema 3}
+\begin{center}
+\includegraphics[scale=0.6]{S3.png}
+\end{center}
+
+\subsection{Schema 4}
+\begin{center}
+\includegraphics[scale=0.6]{S4.png}
+\end{center}
+
+\subsection{Schema 5}
+\begin{center}
+\includegraphics[scale=0.6]{S5.png}
+\end{center}
+
+\subsection{Schema 6}
+\begin{center}
+\includegraphics[scale=0.6]{S6.png}
+\end{center}
+
+
+\section{Calcoli}
+\dots
+
+
+\section{Descrizione Approfondita dell'Esercitazione}
+\subsection{Descrizione Esercizio 1}
+...
+\begin{itemize}
+\item ...
+\end{itemize}
+...
+
+\subsection{Descrizione Esercizio 2}
+\dots
+
+\subsection{Descrizione Esercizio 3}
+\dots
+
+\subsection{Descrizione Esercizio 4}
+\dots
+
+\subsection{Descrizione Esercizio 5}
+\dots
+
+\subsection{Descrizione Esercizio 6}
+\dots
+
+\section{Conclusioni}
+\subsection{Conclusioni Esercizio 1}
+\dots
+\subsection{Conclusioni Esercizio 2}
+\dots
+\subsection{Conclusioni Esercizio 3}
+\dots
+\subsection{Conclusioni Esercizio 4}
+\dots
+\subsection{Conclusioni Esercizio 5}
+\dots
+\subsection{Conclusioni Esercizio 6}
+\dots
+
+
+\end{document}
